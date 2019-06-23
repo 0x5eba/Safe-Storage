@@ -21,4 +21,4 @@ To start the server `sudo -E ./Blockchain s`
 ### CLI
 * To upload a file `./Blockchain c 1 path/file`
 
-* To check if a file is inside the blockchain `./Blockchain c 2 path/file`
+* To check if a file is stored the blockchain `./Blockchain c 2 path/file`

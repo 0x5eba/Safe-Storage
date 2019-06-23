@@ -18,8 +18,6 @@ To start the server `sudo -E ./Blockchain s`
 
 2. Open `upload.html` in the browser
 
-[![Demo]()](https://github.com/0x5eba/Safe-Storage/blob/master/Video/2019-06-21%2015-41-02.mp4)
-
 ### CLI
 * To upload a file `./Blockchain c 1 path/file`
 

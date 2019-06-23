@@ -1,20 +1,24 @@
 # Safe-Storage
 Blockchain to save files and check their existence
 
-## How to start
+## Installation
 
-in the root `python website.py`
+```sh
+$ git clone https://github.com/0x5eba/Safe-Storage.git
+$ cd Safe-Storage
+$ ./init.sh
+```
 
-then `cd Blockchain; go build`
+## Guide step-by-step
 
-to start the server `sudo -E ./Blockchain s` 
-
+To start the server `sudo -E ./Blockchain s` 
 
 ### Web Interface
-open `upload.html` in the browser
+1. Run `python website.py` for the web framework
 
+2. Open `upload.html` in the browser
 
 ### CLI
-To upload a file `./Blockchain c 1 path/file`
+* To upload a file `./Blockchain c 1 path/file`
 
-To check if a file is inside the blockchain `./Blockchain c 2 path/file`
+* To check if a file is inside the blockchain `./Blockchain c 2 path/file`

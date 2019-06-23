@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Hackathon Blockchain</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+   </head>
+   
+   <body>
+      <div class="container">
+         <br><br>
+         <div class="row form-group">
+            <form action="http://localhost:5000/uploader" method="POST" enctype="multipart/form-data">
+               
+               <div class="row form-group"> <input type="file" name="file"/> </div>
+               <div class="row form-group">  <input type="submit"/>  </div>
+
+               <div class="radio">
+                  <label>
+                     <input type="radio" name="optradio" value="upload" checked>Upload
+                  </label>
+               </div>
+               <div class="radio">
+                  <label>
+                     <input type="radio" name="optradio" value="check">Check
+                  </label>
+               </div>
+            </form>
+         </div>  
+      </div>
+ 
+   </body>
+</html>

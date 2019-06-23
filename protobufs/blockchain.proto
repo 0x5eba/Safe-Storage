@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+message Envelope {
+    enum ContentType {
+      UPLOAD = 0;
+      EXIST = 1;
+    }
+
+    ContentType type = 1;
+    bytes data = 2;
+}
+
+message Block {
+    uint64 index = 1;
+    uint64 timestamp = 2;
+    bytes prevHash = 3;
+    bytes hashFile = 4;
+}
+
+message File {
+    bytes name = 1;
+    bytes size = 2;
+    bytes lastModification = 3;
+    bytes data = 4;
+}

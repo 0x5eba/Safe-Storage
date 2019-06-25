@@ -1,5 +1,5 @@
 # Safe-Storage
-Blockchain to save files and check their existence
+Hackathon Arxivar 2019 Blockchain and Machine Learning - Blockchain to save files and check their existence
 
 ## Installation
 
